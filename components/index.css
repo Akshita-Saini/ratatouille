@@ -1,0 +1,37 @@
+/* COMPONENTS */
+
+/* HERO SECTION */
+
+.hero-section {
+  background-color: #f4fce3;
+  margin-top: 4.8rem;
+}
+
+.hero-section-container {
+  max-width: 120rem;
+  margin: auto;
+  /* background-color: sandybrown; */
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 4.8rem;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.hero-img-container {
+  /*  background-color: salmon; */
+  width: 50%;
+}
+
+.hero-img {
+  width: 100%;
+}

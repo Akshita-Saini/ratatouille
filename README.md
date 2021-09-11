@@ -14,4 +14,4 @@ Color: #74b816 symbolizes health
 
 ## Repository Features:
 
-- Semantic commits (feat, fix, docs, style, refactor, test, chore)
+- Semantic commits (struct, feat, fix, docs, style, refactor, test, chore)
