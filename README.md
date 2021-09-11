@@ -2,9 +2,11 @@
 
 An app created using HTML, CSS and JS, that provides organic, home-grown produce and products to you doorstep!
 
-# Website Personality
+## Website Personality
 
 Startup/Upbeat + Calm/Peaceful
+
+Color: #74b816 symbolizes health
 
 ## Web App Features:
 

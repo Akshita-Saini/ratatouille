@@ -17,7 +17,7 @@ Primary: #74b816
 Tints:
 Shades:
 Accents:
-Grey: #343a40
+Grey: #333 #555
 
 
 ---03 SHADOWS
@@ -38,8 +38,13 @@ Grey: #343a40
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1;
   font-weight: 400;
+  color: #333;
 }
