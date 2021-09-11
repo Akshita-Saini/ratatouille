@@ -1,9 +1,15 @@
-# ratatouille
-A cloud kitchen app created using HTML, CSS and JS. 
+# Ratatouille
+
+An app created using HTML, CSS and JS, that provides organic, home-grown produce and products to you doorstep!
+
+# Website Personality
+
+Startup/Upbeat + Calm/Peaceful
 
 ## Web App Features:
-* responsive
+
+- responsive
 
 ## Repository Features:
-* Semantic commits (feat, fix, docs, style, refactor, test, chore)
 
+- Semantic commits (feat, fix, docs, style, refactor, test, chore)

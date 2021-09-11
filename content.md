@@ -10,7 +10,7 @@ We also offer the free services of a nutritionist who'll help you create a diet 
 
 Headline: Organic, home-grown produce to your doorstep every month.
 
-Brand color: ##74b816
+Brand color: #74b816
 
 ## Ratatouille Website Content
 
