@@ -1,12 +1,12 @@
 # Ratatouille
 
-An app created using HTML, CSS and JS, that provides organic, home-grown produce and products to you doorstep!
+A web-app created using HTML, CSS and JS, that provides organic, home-grown produce and products to your doorstep!
 
 ## Website Personality
 
 Startup/Upbeat + Calm/Peaceful
 
-Color: #74b816 symbolizes health
+Color: Lime Green symbolizes health
 
 ## Web App Features:
 
