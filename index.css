@@ -2,23 +2,70 @@
 
 /* HEADER */
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  background-color: #f4fce3;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.4rem;
+}
+
 /* NAVIGATION */
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  list-style: none;
+}
+
+.main-nav-links:link,
+.main-nav-links:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main-nav-links:hover,
+.main-nav-links:active {
+  color: #5c940d;
+}
+
+.main-nav-cta:link,
+.main-nav-cta:visited {
+  border-radius: 5px;
+  padding: 1.4rem 2.8rem;
+  color: #fff;
+  background-color: #74b816;
+}
+
+.main-nav-cta:hover,
+.main-nav-cta:active {
+  background-color: #66a80f;
+}
 
 /* HERO SECTION */
 
 .hero-section {
   background-color: #f4fce3;
-  margin-top: 4.8rem;
 }
 
 .hero-section-container {
-  max-width: 120rem;
+  max-width: 130rem;
   margin: auto;
 
   display: flex;
   align-items: center;
-  gap: 3.2rem;
-  padding: 4.8rem;
+  gap: 6.4rem;
+  padding: 2.4rem 4.8rem 4.8rem 4.8rem;
 }
 
 .hero-text {
