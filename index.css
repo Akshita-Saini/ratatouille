@@ -181,3 +181,34 @@
   background-color: #e9fac8;
   z-index: -1;
 }
+
+/* FEATURED IN */
+
+.section-featured-in {
+  padding: 4.8rem;
+}
+
+.featured-in-heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1.8rem;
+  letter-spacing: 1px;
+  color: #888;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.features-list img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
