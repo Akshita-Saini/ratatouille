@@ -54,8 +54,9 @@
 
 /* HERO SECTION */
 
-.hero-section {
+.section-hero {
   background-color: #f4fce3;
+  padding: 0 4.8rem 6.4rem 4.8rem;
 }
 
 .hero-section-container {
@@ -111,4 +112,45 @@
 .hero-imgs-text span {
   color: #5c940d;
   font-weight: 600;
+}
+
+/* HOW IT WORKS */
+
+.section-how-it-works {
+}
+
+.steps {
+  column-gap: 7.4rem;
+  row-gap: 6.4rem;
+}
+
+.steps-heading {
+  padding-bottom: 0;
+}
+
+.step-img-container img {
+  width: 40%;
+}
+
+.step-number {
+  font-size: 6.4rem;
+  font-weight: 500;
+  color: #ddd;
+  margin-bottom: 2.4rem;
+}
+
+.step-heading {
+  font-size: 3.6rem;
+  line-height: 1.2;
+  color: #333;
+  margin-bottom: 3.6rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.step-img-container {
 }
