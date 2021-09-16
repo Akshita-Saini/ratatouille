@@ -33,6 +33,7 @@ Grey: #333 #555
 ---04 BORDER-RADIUS
 -border radius
 Default: 5px;
+3px
 
 -border
 Default: 3px
@@ -63,6 +64,9 @@ body {
   color: #111;
 }
 
+strong {
+  font-weight: 500;
+}
 /* GENERAL STYLES */
 
 .grid {
@@ -81,10 +85,6 @@ body {
   align-items: center;
 }
 
-/* .grid-center-h {
-  justify-items: center;
-} */
-
 .center {
   display: flex;
   justify-content: center;
@@ -95,18 +95,27 @@ body {
   padding: 4.8rem;
 }
 
+.primary-heading,
+.secondary-heading,
+.tertiary-heading {
+  color: #333;
+  line-height: 1.2;
+  letter-spacing: -2px;
+}
+
 .primary-heading {
   font-size: 5.2rem;
   font-weight: 700;
-  letter-spacing: -2px;
-  line-height: 1.2;
 }
 
 .secondary-heading {
   font-size: 4.4rem;
-  color: #333;
-  line-height: 1.2;
   letter-spacing: -2px;
+}
+
+.tertiary-heading {
+  font-size: 3rem;
+  letter-spacing: -1px;
 }
 
 .subheading {
@@ -115,6 +124,16 @@ body {
   text-transform: uppercase;
   color: #5c940d;
   letter-spacing: 1px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  color: #333;
+  font-size: 1.2rem;
+  border-radius: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .btn {

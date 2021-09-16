@@ -212,3 +212,53 @@
   filter: brightness(0);
   opacity: 50%;
 }
+
+/* MEALS */
+
+.meals-details {
+  gap: 4.8rem;
+}
+
+.meal-card {
+  box-shadow: 0 3.2rem 3.2rem #ddd;
+}
+
+.meals-img {
+  width: 100%;
+}
+
+.meal-description {
+  padding: 3.2rem;
+}
+
+.meal-tag-list {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.vegetarian-tag {
+  background-color: #69db7c;
+}
+
+.paleo-tag {
+  background-color: #fcc419;
+}
+
+.vegan-tag {
+  background-color: #38d9a9;
+}
+
+.meal-heading {
+  margin: 0.8rem 0 3.2rem 0;
+}
+
+.meal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.meal-list-item {
+  font-size: 1.8rem;
+}
