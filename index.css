@@ -215,20 +215,38 @@
 
 /* MEALS */
 
+.section-meals {
+  padding-top: 7.6rem;
+  padding-bottom: 7.6rem;
+  position: relative;
+}
+
+.meals-header {
+  text-align: center;
+}
+
 .meals-details {
-  gap: 4.8rem;
+  gap: 6.4rem;
 }
 
 .meal-card {
-  box-shadow: 0 3.2rem 3.2rem #ddd;
+  border-radius: 9px;
+  box-shadow: 0 3.2rem 5.2rem #eee;
+  transition: all 0.5s;
+}
+
+.meal-card:hover {
+  transform: translate(0, -2%);
+  box-shadow: 0 3.6rem 5.2rem #eee;
 }
 
 .meals-img {
   width: 100%;
+  border-radius: 9px 9px 0 0;
 }
 
 .meal-description {
-  padding: 3.2rem;
+  padding: 4.8rem 5.2rem 5.2rem 5.2rem;
 }
 
 .meal-tag-list {
@@ -252,13 +270,15 @@
   margin: 0.8rem 0 3.2rem 0;
 }
 
-.meal-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
+.link {
+  position: absolute;
+  right: 50%;
+  transform: translateX(+50%);
+  margin: auto;
+  color: #74b816;
+  border-bottom: 2px solid currentColor;
+  transition: all 0.3s;
 
-.meal-list-item {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  text-decoration: none;
 }

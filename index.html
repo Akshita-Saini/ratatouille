@@ -13,6 +13,14 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="index.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header class="header">
@@ -129,7 +137,7 @@
         </div>
       </section>
       <section class="section-meals">
-        <div class="container">
+        <div class="meals-header container">
           <p class="subheading">Meals</p>
           <h2 class="secondary-heading">
             Ratatouille chooses from 5,000+ recipes
@@ -147,13 +155,18 @@
                 <span class="tag vegetarian-tag">Vegetarian</span>
               </div>
               <h3 class="tertiary-heading meal-heading">Basic</h3>
-              <ul class="meal-list">
-                <li class="meal-list-item"><strong>650</strong> calories</li>
-                <li class="meal-list-item">
-                  Nutriscore of <strong> 74</strong>
+              <ul class="list">
+                <li class="list-item">
+                  <ion-icon class="icon" name="flame-outline"></ion-icon>
+                  <span><strong>650</strong> calories</span>
                 </li>
-                <li class="meal-list-item">
-                  <strong>4.9</strong> rating (537)
+                <li class="list-item">
+                  <ion-icon class="icon" name="restaurant-outline"></ion-icon>
+                  <span>Nutriscore of<strong> 74</strong></span>
+                </li>
+                <li class="list-item">
+                  <ion-icon class="icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong>rating (537)</span>
                 </li>
               </ul>
             </div>
@@ -170,18 +183,65 @@
                 <span class="tag vegan-tag">Vegan</span>
               </div>
               <h3 class="tertiary-heading meal-heading">Special</h3>
-              <ul class="meal-list">
-                <li class="meal-list-item"><strong>400</strong> calories</li>
-                <li class="meal-list-item">
-                  Nutriscore of <strong> 92</strong>
+              <ul class="list">
+                <li class="list-item">
+                  <ion-icon class="icon" name="flame-outline"></ion-icon>
+                  <span><strong>400</strong> calories</span>
                 </li>
-                <li class="meal-list-item">
-                  <strong>4.8</strong> rating (441)
+                <li class="list-item">
+                  <ion-icon class="icon" name="restaurant-outline"></ion-icon>
+                  <span>Nutriscore of<strong> 92</strong></span>
+                </li>
+                <li class="list-item">
+                  <ion-icon class="icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
                 </li>
               </ul>
             </div>
           </div>
+          <div class="list">
+            <h3 class="tertiary-heading">Works with any diet</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Vegetarian
+              </li>
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Vegan
+              </li>
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Pescatarian
+              </li>
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Gluten-free
+              </li>
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Lactose-free
+              </li>
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Keto
+              </li>
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Paleo
+              </li>
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Low FODMAP
+              </li>
+              <li class="list-item">
+                <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+                Kid-friendly
+              </li>
+            </ul>
+          </div>
         </div>
+        <a class="link" href="#">See all recipes &rarr;</a>
       </section>
     </main>
   </body>
