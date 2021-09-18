@@ -100,7 +100,7 @@ Complete: Rs. 3,000 per year
 
 [Photos of customers included]
 
-Inexpensive, healthy organic products without even having to order manually! It feels truly magical. (Ria Jain)
+Inexpensive, healthy organic products without even having to order manually! It feels truly magical. (Rohit Jain)
 The nutritionist is crazy good, she chooses the right meals for me every time. It's amazing not to worry about food anymore! (Shruti Agarwal)
 Omnifood is a life saver! I just started a company, so there's no time to look for trsutable, organic food. I couldn't live without my monthy deliveries now! (Rohit Garg)
 I got Ratatouille for the whole family, and it frees up so much time! Everything is organic and vegan and without plastic. (Prakhar Varshney)
