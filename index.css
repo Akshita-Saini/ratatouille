@@ -447,3 +447,42 @@
   top: 30px;
   right: -101px;
 }
+
+/* FEATURES */
+
+.features-heading {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #555;
+  margin: 6.4rem 0 6rem 0;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.2rem;
+}
+
+.feature-item {
+  padding: 1rem;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #5c940d;
+  border-radius: 50%;
+  background-color: #e9fac8;
+  padding: 1.5rem;
+}
+
+.feature-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 3.2rem 0 1.6rem 0;
+}
+
+.feature-desc {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #555;
+}
