@@ -142,12 +142,13 @@ strong {
   text-decoration: none;
   font-size: 2rem;
   font-weight: 500;
-  border-radius: 5px;
+  border-radius: 9px;
   padding: 1.4rem 2.8rem;
-
+  border: none;
   transition: all, 0.3s;
 }
 
+.btn-fill,
 .btn-fill:link,
 .btn-fill:visited {
   color: #fff;
@@ -159,6 +160,7 @@ strong {
   background-color: #66a80f;
 }
 
+.btn-outline,
 .btn-outline:link,
 .btn-outline:visited {
   color: #74b816;
