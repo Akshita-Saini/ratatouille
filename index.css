@@ -394,7 +394,7 @@
 }
 
 .plan-price {
-  color: #333;git 
+  color: #333;
   margin-bottom: 1.6rem;
   text-align: center;
   font-size: 3.2rem;
@@ -433,6 +433,7 @@
 }
 
 .plan-tag {
+  color: #333;
   background-color: rgb(255, 238, 0);
   font-size: 1.4rem;
   font-weight: 700;

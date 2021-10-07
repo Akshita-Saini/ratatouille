@@ -20,7 +20,7 @@ The smart monthy home-grown produce subscription that will make you eat healthy 
 
 ### Ratataouille Features
 
-Eat organic always!: Our subscriptions cover you for the whole year.
+Eat organic always: Our subscriptions cover you for the whole year.
 
 Plan healthy meals!: You can use our nutritionist services to plan your healthy meals and monthy requirements completely for free!
 
