@@ -352,7 +352,7 @@
 /* PRICING */
 
 .section-pricing {
-  padding: 9.6rem;
+  padding: 9.6rem 0 6.4rem 0;
 }
 
 .plans-container {
@@ -485,4 +485,93 @@
   font-size: 1.8rem;
   line-height: 1.8;
   color: #555;
+}
+
+/* CTA */
+
+.section-cta {
+  margin-bottom: 9.6rem;
+}
+
+.cta {
+  background-color: #74b816;
+  background-image: linear-gradient(to right, #74b816, #66a80f);
+  border-radius: 11px;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 6.5fr 3.5fr;
+}
+
+.cta-text {
+  padding: 6.4rem;
+  color: #233a04;
+}
+
+.cta-heading {
+  color: #233a04;
+}
+
+.cta-desc {
+  margin: 2rem 0 3.2rem 0;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+
+.cta-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(117, 184, 22, 0.3),
+      rgba(102, 168, 15, 0.3)
+    ),
+    url(/img/eating.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cta-form label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.cta-form input,
+.cta-form select {
+  font-family: inherit;
+  font-size: 1.8rem;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.cta-form input::placeholder,
+.cta-form select option {
+  font-family: inherit;
+  color: #888;
+}
+
+.cta-btn {
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  align-self: end;
+  border-radius: 7px;
+  border: none;
+  color: #eee;
+  background-color: rgba(35, 58, 4, 0.9);
+  transition: all 0.3s;
+}
+
+.cta-btn:hover {
+  color: rgba(35, 58, 4);
+  background-color: #eee;
 }

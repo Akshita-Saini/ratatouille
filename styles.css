@@ -22,7 +22,7 @@ h1:2px
 ---02 COLOR
 Primary: #74b816
 Tints: #f4fce3, #e9fac8
-Shades:#66a80f, #5c940d
+Shades:#66a80f, #5c940d, #233a04;
 Accents:
 Grey: #333 #555
 
@@ -100,7 +100,6 @@ strong {
 .tertiary-heading {
   color: #333;
   line-height: 1.2;
-  letter-spacing: -2px;
 }
 
 .primary-heading {
@@ -110,7 +109,7 @@ strong {
 
 .secondary-heading {
   font-size: 4.4rem;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 .tertiary-heading {

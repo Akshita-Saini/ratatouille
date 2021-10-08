@@ -449,25 +449,37 @@
           <div class="cta">
             <div class="cta-text">
               <div class="cta-text-header">
-                <h3 class="secondary-heading">Get your first for free!</h3>
+                <h3 class="cta-heading secondary-heading">
+                  Get your first for free!
+                </h3>
                 <p class="cta-desc">
                   Healthy, tasty and hassle-free meals are waiting for you.
-                  Start eating well today. You can cancel or pause anytime. And
-                  the first meal is on us!
+                  Start eating well today. You can cancel or pause anytime. The
+                  first meal is on us!
                 </p>
               </div>
               <form action="#" class="cta-form">
                 <div>
                   <label for="fullname">Full Name</label>
-                  <input id="fullname" type="text" placeholder="John Smith" />
+                  <input
+                    id="fullname"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
                 </div>
                 <div>
                   <label for="email">Email address</label>
-                  <input id="email" type="email" placeholder="me@gmail.com" />
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@gmail.com"
+                    required
+                  />
                 </div>
                 <div>
                   <label for="where">Where did you hear about us?</label>
-                  <select id="where">
+                  <select id="where" required>
                     <option value="">Please choose one option</option>
                     <option value="friends">Friends and Family</option>
                     <option value="youtube">You Tube video</option>
@@ -476,7 +488,7 @@
                     <option value="others">Others</option>
                   </select>
                 </div>
-                <button type="submit" class="btn">Sign up now</button>
+                <button type="submit" class="cta-btn">Sign up now</button>
               </form>
             </div>
             <div role="img" class="cta-img"></div>

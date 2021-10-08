@@ -15,3 +15,7 @@ Color: Lime Green symbolizes health
 ## Repository Features:
 
 - Semantic commits (struct, feat, fix, docs, style, refactor, test, chore)
+
+## Colors from Open Colors
+
+https://yeun.github.io/open-color/#lime
