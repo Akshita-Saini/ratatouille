@@ -67,6 +67,12 @@ body {
 strong {
   font-weight: 500;
 }
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem rgba(92, 148, 13, 0.5);
+}
+
 /* GENERAL STYLES */
 
 .grid {

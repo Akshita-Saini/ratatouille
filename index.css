@@ -503,6 +503,10 @@
   grid-template-columns: 6.5fr 3.5fr;
 }
 
+.cta *:focus {
+  box-shadow: 0 0 0 0.5rem rgba(71, 114, 10, 0.5);
+}
+
 .cta-text {
   padding: 6.4rem;
   color: #233a04;
