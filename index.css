@@ -116,9 +116,6 @@
 
 /* HOW IT WORKS */
 
-.section-how-it-works {
-}
-
 .steps {
   column-gap: 7.4rem;
   row-gap: 6.4rem;
@@ -595,8 +592,26 @@
   color: #555;
 }
 
+.footer-list-address a,
+.footer-list-address p {
+  display: block;
+  color: #777;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.footer-list-address .list-heading {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.address-details {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .footer-list-last {
-  justify-self: end;
   align-self: stretch;
 }
 
