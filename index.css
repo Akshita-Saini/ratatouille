@@ -598,6 +598,13 @@
 .footer-list .list-item a:visited {
   color: #777;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-list .list-item a:hover,
+.footer-list .list-item a:active {
+  color: #444;
+  text-decoration: none;
 }
 
 .footer-list-address {
