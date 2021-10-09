@@ -581,11 +581,11 @@
 }
 
 /* FOOTER */
-.section-footer {
+.footer {
   margin: 7.2rem 0;
 }
 
-.footer {
+.footer-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
@@ -607,11 +607,11 @@
   color: #555;
 }
 
-.footer .list {
+.footer-container .list {
   gap: 1.8rem;
 }
 
-.footer .list-item {
+.footer-container .list-item {
   font-size: 1.6rem;
   color: #777;
 }
