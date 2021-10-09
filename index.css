@@ -578,36 +578,38 @@
 
 /* FOOTER */
 .section-footer {
-  margin: 0 0 7.2rem 0;
+  margin: 7.2rem 0;
 }
+
 .footer {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
 }
 
 .footer-list {
   color: #555;
 }
 
+.footer-list-last {
+  justify-self: end;
+  align-self: stretch;
+}
+
 .list-heading {
-  margin-bottom: 3.2rem;
-  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
   font-weight: 400;
   color: #555;
 }
 
 .footer .list {
-  gap: 1.6rem;
+  gap: 1.8rem;
 }
 
-.footer-list .list-item {
+.footer .list-item {
   font-size: 1.6rem;
   color: #777;
-}
-
-.divider {
-  border-bottom: 1.5px solid #eee;
-  margin-bottom: 7.2rem;
 }
 
 .footer-ratatouille-logo {
@@ -617,12 +619,12 @@
 .footer-logo-list {
   display: flex;
   gap: 2rem;
+  margin-bottom: 4.8rem;
 }
 
 .footer-logo {
   font-size: 3.2rem;
   color: #aaa;
-  margin-bottom: 4.8rem;
 }
 
 .copyright {

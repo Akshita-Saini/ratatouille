@@ -213,3 +213,9 @@ strong {
 .bold {
   font-weight: 600;
 }
+
+/* DIVIDERS */
+.divider {
+  border-bottom: 1.5px solid #eee;
+  margin-bottom: 7.2rem;
+}
