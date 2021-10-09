@@ -454,7 +454,7 @@
   text-align: center;
   font-size: 1.6rem;
   color: #555;
-  margin: 6.4rem 0 6rem 0;
+  margin: 3.2rem 0 6rem 0;
 }
 
 .features-container {
@@ -574,4 +574,28 @@
 .cta-btn:hover {
   color: rgba(35, 58, 4);
   background-color: #eee;
+}
+
+/* FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-list {
+  color: #555;
+}
+
+.list-heading {
+  margin-bottom: 4.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.footer .list {
+  gap: 1.6rem;
+}
+
+.footer-list .list-item {
+  font-size: 1.6rem;
 }
