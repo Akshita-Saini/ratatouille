@@ -551,6 +551,7 @@
   padding: 1.2rem;
   border-radius: 7px;
   width: 100%;
+  background-color: #f4fce3;
 }
 
 .cta-form input::placeholder,

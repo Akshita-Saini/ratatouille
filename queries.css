@@ -42,10 +42,18 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 0rem;
   }
+
+  .plan-tag {
+    top: 19px;
+    right: -86px;
+    font-size: 1.2rem;
+  }
 }
 
 /* Below 1100px */
+
 @media (max-width: 71.8em) {
+  /* 8px */
   html {
     font-size: 50%;
   }
@@ -62,27 +70,35 @@
 
 /* Below 900px */
 @media (max-width: 56.25em) {
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
   .hero-section-container {
     text-align: center;
     flex-direction: column;
   }
 
+  .section-hero {
+    padding: 0 4.8rem 4.8rem 4.8rem;
+  }
+
   .hero-text {
-    width: 75%;
+    width: 85%;
   }
 
   .hero-imgs-container {
-    margin-top: 3.2rem;
+    margin-top: 1.2rem;
     justify-content: center;
   }
 
   .hero-text {
-    margin: 4.8rem 0;
+    margin: 2rem 0;
   }
 
   .hero-imgs img {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 4.8rem;
+    height: 4.8rem;
   }
 
   .features-list img {
@@ -91,6 +107,37 @@
 
   .step-number {
     font-size: 6rem;
+  }
+
+  .plans-container {
+    gap: 4.8rem;
+  }
+
+  .plan {
+    max-width: 35rem;
+    padding: 3.2rem;
+  }
+
+  .plan-tag {
+    top: 18px;
+    right: -88px;
+    font-size: 1.2rem;
+  }
+
+  .meals-details {
+    gap: 3.2rem;
+  }
+
+  .meal-description {
+    padding: 3.2rem 3.2rem 4.8rem 3.2rem;
+  }
+
+  .list {
+    gap: 2rem;
+  }
+  .list-item {
+    font-size: 1.6rem;
+    line-height: 1.2;
   }
 }
 
@@ -103,7 +150,7 @@
 
   .testimonial-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 0rem;
+    gap: 1.6rem;
   }
 
   .testimonial-item {
@@ -114,24 +161,30 @@
     grid-template-columns: repeat(6, 1fr);
   }
 
-  .plans-container {
-    gap: 4.8rem;
-  }
-
-  .plan {
-    max-width: 35rem;
-  }
-
-  .plan-tag {
-    top: 18px;
-    right: -88px;
-    font-size: 1.2rem;
+  .feature-icon {
+    font-size: 2.4rem;
   }
 
   .features-container {
-    gap: 0.8rem;
+    gap: 2rem;
+  }
+
+  .cta {
+    grid-template-columns: 6.5fr 4.5fr;
+  }
+
+  .cta-text {
+    padding: 4.8rem;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-btn {
+    margin-top: 1.2rem;
   }
 }
+
 /* 
 -font-sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
