@@ -1,0 +1,140 @@
+/* Below 1385px */
+@media (max-width: 85em) {
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Below 1200px */
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px = 0.5625 */
+    font-size: 56.25%;
+  }
+
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+
+  .tertiary-heading {
+    font-size: 3rem;
+  }
+
+  .hero-section-container {
+    gap: 0;
+    padding: 2.4rem 0 4.8rem 0;
+  }
+
+  .testimonials {
+    padding: 4.8rem;
+  }
+
+  .testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem;
+  }
+}
+
+/* Below 1100px */
+@media (max-width: 71.8em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-section-container {
+    gap: 4.8rem;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Below 900px */
+@media (max-width: 56.25em) {
+  .hero-section-container {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hero-text {
+    width: 75%;
+  }
+
+  .hero-imgs-container {
+    margin-top: 3.2rem;
+    justify-content: center;
+  }
+
+  .hero-text {
+    margin: 4.8rem 0;
+  }
+
+  .hero-imgs img {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .features-list img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 6rem;
+  }
+}
+
+/* Below 800px */
+
+@media (max-width: 50em) {
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem;
+  }
+
+  .testimonial-item {
+    padding: 1.6rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .plans-container {
+    gap: 4.8rem;
+  }
+
+  .plan {
+    max-width: 35rem;
+  }
+
+  .plan-tag {
+    top: 18px;
+    right: -88px;
+    font-size: 1.2rem;
+  }
+
+  .features-container {
+    gap: 0.8rem;
+  }
+}
+/* 
+-font-sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
