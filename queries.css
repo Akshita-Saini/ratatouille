@@ -200,10 +200,22 @@
 
   /* Navigation is closed */
   .main-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.4s ease-in, transform 0.4s ease-in;
+    transition: all 0.5s ease-in;
 
     transform: translateX(100%);
   }
@@ -221,18 +233,6 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: #fff;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     transform: translateX(0);
   }
