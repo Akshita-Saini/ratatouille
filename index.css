@@ -52,6 +52,17 @@
   background-color: #66a80f;
 }
 
+.mobile-nav {
+  border: none;
+  cursor: pointer;
+  background-color: #f4fce3;
+  display: none;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+
 /* HERO SECTION */
 
 .section-hero {

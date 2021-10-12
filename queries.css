@@ -183,6 +183,35 @@
   .cta-btn {
     margin-top: 1.2rem;
   }
+
+  .mobile-nav-icon {
+    stroke: #333;
+    font-size: 3.2rem;
+  }
+
+  .main-nav-list {
+    opacity: 0;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .mobile-nav-icon {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+
+  .mobile-nav-icon[name="menu-outline"] {
+    display: block;
+  }
+
+  /* Navigation is closed */
+  .mobile-nav-icon[name="close-outline"] {
+    display: none;
+  }
+
+  /* Navigation is opened */
 }
 
 /* 
