@@ -317,6 +317,88 @@
     grid-column: span 2;
   }
 }
+
+/* Below 550px (Small Tablets)*/
+@media (max-width: 34em) {
+  .header {
+    padding: 0 2.4rem;
+  }
+
+  .section-hero {
+    padding: 0 2.4rem 3.2rem 2.4rem;
+  }
+
+  .hero-section-container {
+    padding: 0 0 2.4rem 0;
+  }
+
+  .hero-img-container {
+    width: 80%;
+  }
+
+  .features-list img {
+    height: 1.8rem;
+  }
+
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .step-img-container {
+    transform: translateY(3.2rem);
+  }
+
+  .step-img-container img {
+    width: 30%;
+  }
+
+  .step-img-container:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-container:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .meal-card {
+    width: 75%;
+    justify-self: center;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .plans-container {
+    grid-template-columns: 1fr;
+  }
+
+  .plan {
+    justify-self: center;
+  }
+
+  .features-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img {
+    grid-row: 1;
+    height: 35rem;
+  }
+}
 /* 
 -font-sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
