@@ -255,6 +255,68 @@
   }
 }
 
+/* Below 700px (Small Tablets)*/
+@media (max-width: 43.75em) {
+  .container {
+    padding: 3.2rem;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-hero {
+    padding: 0 3.2rem 4.8rem 3.2rem;
+  }
+
+  .hero-section-container {
+    gap: 6.4rem;
+    padding: 1.2rem 2.4rem 2.4rem 4rem;
+  }
+
+  .hero-img-container {
+    width: 60%;
+  }
+
+  .features-list img {
+    height: 2rem;
+  }
+
+  .meal-types {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .plans-container {
+    gap: 3.2rem;
+  }
+
+  .plan {
+    max-width: 90%;
+  }
+
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-container {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    gap: 4.8rem;
+  }
+
+  .footer-list-first,
+  .footer-list-address {
+    grid-row: 2;
+    grid-column: span 3;
+  }
+
+  .footer-list-last,
+  .footer-list-account,
+  .footer-list-company {
+    grid-column: span 2;
+  }
+}
 /* 
 -font-sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
