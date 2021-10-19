@@ -57,11 +57,13 @@
   cursor: pointer;
   background-color: #f4fce3;
   display: none;
+  /* z-index:9999; */
 }
 
-.mobile-nav-icon[name="close-outline"] {
+.mobile-nav-btn[name="close-outline"] {
   display: none;
 }
+
 
 /* HERO SECTION */
 
