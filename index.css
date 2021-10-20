@@ -76,7 +76,7 @@
 .mobile-nav {
   border: none;
   cursor: pointer;
-  background-color: #f4fce3;
+  background-color: inherit;
   display: none;
   /* z-index:9999; */
 }
