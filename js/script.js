@@ -14,6 +14,28 @@ mobileCloseEle.addEventListener("click", function(){
   headerEle.classList.toggle('nav-open');
 });
 
+const mainNavLinks = document.querySelectorAll(".main-nav-links");
+
+mainNavLinks.forEach( link => {
+  link.addEventListener('click', function(e){
+    const href = link.getAttribute("href");
+    e.preventDefault();
+    /*  if(href == "#"){
+      window.scrollTo({
+        top:0,
+        left:0,
+        behavior:"smooth"
+      })
+    } */
+    if(href !== "#" && href.startsWith("#")){
+      const sectionEle = document.querySelector(href);
+      sectionEle.scrollIntoView({
+        behavior:"smooth"
+      })
+    }
+  })
+})
+
 
 
 // Fixing flexbox gap property missing in some Safari versions
@@ -34,8 +56,6 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
-
-// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
 /*
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
